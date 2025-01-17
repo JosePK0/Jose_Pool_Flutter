@@ -1,4 +1,4 @@
-# 🍴 **Cookbook**
+#  **Cookbook**
 
 ![Flutter](https://img.shields.io/badge/Flutter-Powered-blue?style=for-the-badge&logo=flutter)
 ![Dart](https://img.shields.io/badge/Dart-Language-blue?style=for-the-badge&logo=dart)
@@ -48,13 +48,7 @@ Si eres nuevo en Flutter, aquí tienes algunos recursos que te harán un maestro
 
 ---
 
-## 🎨 **Vista previa**
 
-Aquí una pequeña probadita de lo que te espera (¡actualízalo con capturas de tu app!):
-
-![App Preview](https://via.placeholder.com/800x400.png?text=Tu+Preview+va+aqui)
-
----
 
 ## 💻 **Desarrollado por**
 
@@ -70,12 +64,8 @@ Este proyecto está bajo la licencia **MIT**, lo que significa que eres libre de
 
 ---
 
-## 🌌 **¡Sé parte del proyecto!**
 
-¿Tienes ideas? ¿Encontraste un bug? ¿Quieres contribuir? ¡Eres bienvenido! Puedes abrir un issue o enviar un pull request.
-
----
 
 > _"Codea como si nadie te estuviera viendo, pero publica como si todo el mundo estuviera mirando."_
 
-🔥 ¡Ahora ve y crea algo increíble con **Cook Book**! ✨
+🔥 ¡Ahora ve y crea algo increíble con **Cookbook**! ✨
