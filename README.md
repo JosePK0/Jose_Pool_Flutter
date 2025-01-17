@@ -23,8 +23,10 @@ Si estás aquí, es porque quieres algo épico. Aquí te dejo los pasos para que
 
 ### **1. Clona el repositorio**
 ```bash
-git clone https://github.com/JosePK0/cook_book.git
-cd cook_book
+git clone https://github.com/JosePK0/Jose_Pool_Flutter
+.git
+cd Jose_Pool_Flutter
+
 ```
 
 ### **2. Instala las dependencias**
