@@ -35,7 +35,7 @@ class FormsScreen extends StatelessWidget {
   }
 }
 
-// Activity 1: Build a form with validation
+
 class BuildFormValidationExample extends StatefulWidget {
   const BuildFormValidationExample({Key? key}) : super(key: key);
 
@@ -85,7 +85,7 @@ class _BuildFormValidationExampleState
   }
 }
 
-// Activity 2: Create and style a text field
+
 class CreateStyleTextFieldExample extends StatelessWidget {
   const CreateStyleTextFieldExample({Key? key}) : super(key: key);
 
@@ -105,7 +105,7 @@ class CreateStyleTextFieldExample extends StatelessWidget {
   }
 }
 
-// Activity 3: Focus and text fields
+
 class FocusTextFieldExample extends StatefulWidget {
   const FocusTextFieldExample({Key? key}) : super(key: key);
 
@@ -145,7 +145,7 @@ class _FocusTextFieldExampleState extends State<FocusTextFieldExample> {
   }
 }
 
-// Activity 4: Handle changes to a text field
+
 class HandleChangesTextFieldExample extends StatefulWidget {
   const HandleChangesTextFieldExample({Key? key}) : super(key: key);
 
@@ -180,7 +180,7 @@ class _HandleChangesTextFieldExampleState
   }
 }
 
-// Activity 5: Retrieve the value of a text field
+
 class RetrieveValueTextFieldExample extends StatefulWidget {
   const RetrieveValueTextFieldExample({Key? key}) : super(key: key);
 

@@ -41,7 +41,7 @@ class NavigationScreen extends StatelessWidget {
   }
 }
 
-// Activity 1: Animate a widget across screens
+
 class AnimateWidgetAcrossScreensExample extends StatelessWidget {
   const AnimateWidgetAcrossScreensExample({Key? key}) : super(key: key);
 
@@ -93,7 +93,7 @@ class SecondScreen extends StatelessWidget {
   }
 }
 
-// Activity 2: Navigate to a new screen and back
+
 class NavigateToNewScreenAndBackExample extends StatelessWidget {
   const NavigateToNewScreenAndBackExample({Key? key}) : super(key: key);
 
@@ -113,7 +113,7 @@ class NavigateToNewScreenAndBackExample extends StatelessWidget {
   }
 }
 
-// Activity 3: Navigate with named routes
+
 class NavigateWithNamedRoutesExample extends StatelessWidget {
   const NavigateWithNamedRoutesExample({Key? key}) : super(key: key);
 
@@ -130,7 +130,7 @@ class NavigateWithNamedRoutesExample extends StatelessWidget {
   }
 }
 
-// Activity 4: Pass arguments to a named route
+
 class PassArgumentsToNamedRouteExample extends StatelessWidget {
   const PassArgumentsToNamedRouteExample({Key? key}) : super(key: key);
 
@@ -151,7 +151,7 @@ class PassArgumentsToNamedRouteExample extends StatelessWidget {
   }
 }
 
-// Activity 5: Set up app links for Android
+
 class AppLinksAndroidExample extends StatelessWidget {
   const AppLinksAndroidExample({Key? key}) : super(key: key);
 
@@ -166,7 +166,7 @@ class AppLinksAndroidExample extends StatelessWidget {
   }
 }
 
-// Activity 6: Set up universal links for iOS
+
 class UniversalLinksIOSExample extends StatelessWidget {
   const UniversalLinksIOSExample({Key? key}) : super(key: key);
 
@@ -181,7 +181,7 @@ class UniversalLinksIOSExample extends StatelessWidget {
   }
 }
 
-// Activity 7: Return data from a screen
+
 class ReturnDataFromScreenExample extends StatelessWidget {
   const ReturnDataFromScreenExample({Key? key}) : super(key: key);
 
@@ -204,7 +204,7 @@ class ReturnDataFromScreenExample extends StatelessWidget {
   }
 }
 
-// Activity 8: Send data to a new screen
+
 class SendDataToNewScreenExample extends StatelessWidget {
   const SendDataToNewScreenExample({Key? key}) : super(key: key);
 

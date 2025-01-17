@@ -6,7 +6,7 @@ class ListsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 7, // Número de actividades
+      length: 7, 
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Lists Examples'),
@@ -39,7 +39,7 @@ class ListsScreen extends StatelessWidget {
   }
 }
 
-// Activity 1: Create a grid list
+
 class CreateGridListExample extends StatelessWidget {
   const CreateGridListExample({Key? key}) : super(key: key);
 
@@ -59,7 +59,7 @@ class CreateGridListExample extends StatelessWidget {
   }
 }
 
-// Activity 2: Create a horizontal list
+
 class CreateHorizontalListExample extends StatelessWidget {
   const CreateHorizontalListExample({Key? key}) : super(key: key);
 
@@ -82,7 +82,7 @@ class CreateHorizontalListExample extends StatelessWidget {
   }
 }
 
-// Activity 3: Create lists with different types of items
+
 class CreateDifferentItemsListExample extends StatelessWidget {
   const CreateDifferentItemsListExample({Key? key}) : super(key: key);
 
@@ -107,7 +107,7 @@ class CreateDifferentItemsListExample extends StatelessWidget {
   }
 }
 
-// Activity 4: Place a floating app bar above a list
+
 class FloatingAppBarListExample extends StatelessWidget {
   const FloatingAppBarListExample({Key? key}) : super(key: key);
 
@@ -137,7 +137,7 @@ class FloatingAppBarListExample extends StatelessWidget {
   }
 }
 
-// Activity 5: Use lists
+
 class UseListsExample extends StatelessWidget {
   const UseListsExample({Key? key}) : super(key: key);
 
@@ -155,7 +155,7 @@ class UseListsExample extends StatelessWidget {
   }
 }
 
-// Activity 6: Work with long lists
+
 class WorkWithLongListsExample extends StatelessWidget {
   const WorkWithLongListsExample({Key? key}) : super(key: key);
 
@@ -172,7 +172,7 @@ class WorkWithLongListsExample extends StatelessWidget {
   }
 }
 
-// Activity 7: Create a list with spaced items
+
 class CreateSpacedItemsListExample extends StatelessWidget {
   const CreateSpacedItemsListExample({Key? key}) : super(key: key);
 

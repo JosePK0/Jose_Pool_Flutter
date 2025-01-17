@@ -6,7 +6,7 @@ class ImagesScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 2, // Número de actividades
+      length: 2, 
       child: Scaffold(
         appBar: AppBar(
           title: const Text('Images Examples'),
@@ -28,7 +28,6 @@ class ImagesScreen extends StatelessWidget {
   }
 }
 
-// Activity 1: Display images from the internet
 class DisplayInternetImagesExample extends StatelessWidget {
   const DisplayInternetImagesExample({Key? key}) : super(key: key);
 
@@ -55,7 +54,7 @@ class DisplayInternetImagesExample extends StatelessWidget {
   }
 }
 
-// Activity 2: Fade in images with a placeholder
+
 class FadeInImagesPlaceholderExample extends StatelessWidget {
   const FadeInImagesPlaceholderExample({Key? key}) : super(key: key);
 
@@ -68,7 +67,7 @@ class FadeInImagesPlaceholderExample extends StatelessWidget {
         fadeInDuration: const Duration(seconds: 10),
         fadeOutDuration: const Duration(seconds: 10),
         placeholderErrorBuilder: (context, error, stackTrace) {
-          return const Icon(Icons.error, size: 50, color: Colors.red); // Manejo de error
+          return const Icon(Icons.error, size: 50, color: Colors.red); 
         },
       ),
     );
