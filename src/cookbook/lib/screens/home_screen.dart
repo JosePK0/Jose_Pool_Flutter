@@ -4,7 +4,11 @@ import 'forms/forms_screen.dart';
 import 'images/images_screen.dart';
 import 'lists/lists_screen.dart';
 import 'navigation/navigation_screen.dart';
-import 'first_app_screen.dart'; // Importa la nueva actividad
+import 'first_app_screen.dart';
+import 'persistence/persistence_screen.dart';
+import 'networking/networking_screen.dart';
+import 'effects/effects_screen.dart';
+import 'animation/animation_screen.dart'; // Importa la nueva actividad
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -111,6 +115,64 @@ class HomeScreen extends StatelessWidget {
                 );
               },
             ),
+           _buildCustomCard(
+              context,
+              title: 'Persistence',
+              icon: Icons.storage, 
+              color: Colors.brown,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const PersistenceScreen(),
+                  ),
+                );
+              },
+            ),
+            _buildCustomCard(
+              context,
+              title: 'Networking',
+              icon: Icons.wifi,
+              color: Colors.blueGrey,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const NetworkingScreen(),
+                  ),
+                );
+              },
+            ),
+            _buildCustomCard(
+              context,
+              title: 'Effects',
+              icon: Icons.star, 
+              color: Colors.deepPurple,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const EffectsScreen(),
+                  ),
+                );
+              },
+            ),
+            _buildCustomCard(
+              context,
+              title: 'Animations',
+              icon: Icons.movie, 
+              color: Colors.pink,
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const AnimationScreen(),
+                  ),
+                );
+              },
+            ),
+
+            
           ],
         ),
       ),
